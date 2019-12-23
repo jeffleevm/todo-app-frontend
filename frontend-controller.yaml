@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: demo-todo-app-frontend
-          image: "jeffleehk/demo-todo-app-frontend:latest"
+          image: "jeffleevm/todo-app-frontend:latest"
           ports:
           - containerPort: 80
