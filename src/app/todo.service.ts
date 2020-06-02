@@ -5,7 +5,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class TodoService {
-  private baseUrl = 'http://demo-todo-app-backend:8080';
+  private baseUrl = 'http://ac4613fa5a4ab11ea9fe30a04f7d65e0-1067022154.ap-southeast-1.elb.amazonaws.com:8080';
 
   constructor(private http: Http) { }
 
