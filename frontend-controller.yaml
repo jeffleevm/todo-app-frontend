@@ -1,18 +1,18 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: demo-todo-app-frontend
+  name: todo-app-frontend
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: demo-todo-app
-        tier: demo-todo-app-frontend
+        app: todo-app
+        tier: todo-app-frontend
         track: stable
     spec:
       containers:
-        - name: demo-todo-app-frontend
+        - name: todo-app-frontend
           image: "jeffleevm/todo-app-frontend:latest"
           ports:
           - containerPort: 80
